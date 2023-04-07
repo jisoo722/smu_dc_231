@@ -1,0 +1,15 @@
+.child {
+    padding: 8px;
+    background-color: aquamarine;
+}
+.parent {
+    padding: 16px; 
+    background-color: rgb(162, 220, 220);
+    margin: 16px auto;
+}
+.friend { 
+    background-color: chartreuse;
+}
+.grandchild {
+    background-color: aliceblue;
+}
