@@ -3,7 +3,7 @@
 }
 
 body {
-   /* color: white; */
+  
 }
 
 .section {
@@ -47,16 +47,10 @@ padding-block:12px;
 .nav {
     background-color: black;
     color: white;
+    font-weight: 700;
     
 }
 
-.nav__menu {
-    color: white;
-
-}
-.nav .container {
-    /* background-color: grey; */
-}
 
 .button {
     background-color: slateblue;
