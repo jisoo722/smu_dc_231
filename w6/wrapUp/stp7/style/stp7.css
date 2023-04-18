@@ -23,7 +23,7 @@
 .button {
   width: -moz-fit-content;
   width: fit-content;
-  background-color: slateblue;
+  background-color: cornflowerblue;
   padding: 8px 16px;
   border-radius: 8px;
   color: white;
@@ -32,7 +32,7 @@
 }
 .button--type-text {
   background-color: unset;
-  color: slateblue;
+  color: cornflowerblue;
   padding-inline: 0;
 }
 
@@ -53,6 +53,17 @@
   align-items: baseline;
 }
 
+.main__media {
+  background-color: rgb(209, 233, 255);
+  overflow: hidden;
+}
+.main__media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #hero1 {
   text-align: center;
 }
@@ -66,11 +77,36 @@
 }
 #hero1 .main__media {
   aspect-ratio: 16/9;
-  background-color: aliceblue;
 }
 #hero1 h2 {
   margin-bottom: 16px;
 }
 #hero1 p {
+  margin-bottom: 24px;
+}
+
+#hero2 {
+  background-color: aliceblue;
+}
+#hero2 .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#hero2 .wrapper > * {
+  flex: 1;
+}
+#hero2 .main__text__buttonWrapper {
+  display: flex;
+  gap: 16px;
+}
+#hero2 .main__media {
+  aspect-ratio: 4/3;
+}
+#hero2 h2 {
+  margin-bottom: 16px;
+}
+#hero2 p {
+  max-width: 40ch;
   margin-bottom: 24px;
 }
