@@ -4,25 +4,21 @@
   box-sizing: border-box;
 }
 
-.section_nav {
+.section {
   /* background-color: red; */
-  padding: 8px 24px;
-  font-family: "Noto Sans KR", sans-serif;
-  min-height: 12px;
-  background-color: gray;
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  align-items: center;
 }
 .container {
-  /* background-color: red; */
+  /* background-color: green; */
+  $padding-inline-value: 64px;
+  max-width: 1200px + 2 * $padding-inline-value;
+  margin-inline: auto;
+  padding-inline: $padding-inline-value;
 }
-
 .wrapper {
   /* background-color: blue; */
   padding-block: 64px;
 }
+
 .button {
   width: fit-content;
   background-color: cornflowerblue;
