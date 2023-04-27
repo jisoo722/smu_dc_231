@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: pink;
+}
+
+.navBar {
+  padding: 10px 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  min-height: 15px;
+  background-color: #fdfaf7;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.navBar__buttons {
+  display: flex;
+  gap: 21px;
+}
+
+.navBar__button > a {
+  color: black;
+  text-decoration: none;
+}
+
+.navBar__logo {
+  height: 45px;
+}
+
+.main__media {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sub__medias {
+  display: flex;
+}
