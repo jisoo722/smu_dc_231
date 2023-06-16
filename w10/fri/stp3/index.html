@@ -10,19 +10,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Fri -stp3</title>
+    <title>Fri - stp3</title>
     <style>
-            .box {
-                max-width: 25rem;
-                border: 1px solid black;
-                margin-inline: auto;
-                margin-bottom:auto;
-                display:flex;
-                justify-content: center;
-      align-items: center;
-              aspect-ratio: 1:1;
-
-            }
+      .box {
+        max-width: 12.5rem;
+        margin-inline: auto;
+        margin-bottom: 1.5rem;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+      }
     </style>
   </head>
   <body>
@@ -31,19 +30,16 @@
     <div class="box">C</div>
   </body>
   <script>
-     let elem = document.getElementById("boxA");
-     console.log(elem);
-     //elem.onclick = alert("되냐?");
-     //elem.onclick = function () {
-       //alert("된다!");
-     //};
-
-     //밑에는 같은 구문임
-    // 아래는 화살표구문인데 function 이 => 인것
-     elem.onclick = function ()
-     elem.onclick = () => {}
-
-     elem.onclick = () => {}
-     alert("된다!");''
+    let elem = document.getElementById("boxA");
+    console.log(elem);
+    // 잘못된 예:
+    // elem.onclick = alert("된다!");
+    // 제대로 된 예1:
+    // elem.onclick = function () {
+    //   alert("된다!");
+    // };
+    elem.onclick = () => {
+      alert("된다!");
+    };
   </script>
 </html>
