@@ -5,7 +5,7 @@
 }
 
 .section {
-  /* background-color: red; */
+  background-color: red;
 }
 .container {
   /* background-color: green; */
@@ -54,6 +54,7 @@
   .lt680px {
     display: none;
   }
+
   @container nav (width < 42.5rem) {
     &__menuWrapper {
       display: none;

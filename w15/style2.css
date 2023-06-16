@@ -1,0 +1,85 @@
+body {
+  background-color: black; /* 배경을 검정색으로 설정 */
+  color: white; /* 텍스트 색상을 흰색으로 설정 */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img-area {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* text와 img 사이의 상단 여백을 추가 */
+}
+.title-area {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Times New Roman";
+  color: rgba(227, 221, 164, 0.8);
+  padding-inline: 30px;
+}
+.text-area1 {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Times New Roman";
+  color: rgba(227, 221, 164, 0.8);
+  margin: 0;
+  padding: 20px;
+}
+.text-area2 {
+  color: white;
+  padding: 130px;
+}
+
+.text-area3 {
+  color: white;
+  padding: 130px;
+}
+.wrapper .centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.wrapper .img-area {
+  margin-bottom: 30px;
+  padding-inline: 30px;
+}
+.btn-area {
+  bottom: 100px;
+  right: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #4a4a4a;
+  border: none;
+
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+}
+
+.btn-area a {
+  padding: 10px 20px;
+
+  color: white; /* 변경된 부분: 흰색으로 설정 */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-area a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .centered. .text-area {
+  margin-top: 30px;
+  padding: 100px;
+}

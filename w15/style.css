@@ -1,0 +1,143 @@
+body {
+  background-color: #0d0d0d;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 2;
+}
+.task-page {
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.task-page > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.task-page > article > .title-area {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Times New Roman";
+  color: rgba(227, 221, 164, 0.8);
+}
+.task-page > article > .sub-title-area {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Times New Roman";
+  color: rgba(227, 221, 164, 0.8);
+  margin: 0;
+}
+.task-page > article .text-area {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.btn-area {
+
+  bottom: 100px;
+  right: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #4a4a4a;
+  border: none;
+  color: #d3d3d3;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+}
+
+.btn-area a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+.btn-area a:hover {
+  text-decoration: underline;
+}
+
+.start-btn {
+  position: absolute;
+  bottom: 15vh;
+  right: 0;
+  cursor: pointer;
+  display: fit-content;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+
+}
+.btn-area.width100-btn {
+  
+  bottom: 20px;
+  right: 20px;
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  background-color: #4a4a4a;
+  border: none;
+  color: #d3d3d3;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+}
+
+.btn-area.width100-btn > span > a {
+  cursor: pointer;
+  display: flex;
+  color: gray
+  text-decoration: none;
+}
+.width100-btn > span > a:hover {
+  text-decoration: underline;
+}
+
+
+.img-area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 20px 0;
+}
+.background-1 {
+  background-image: url(./img/background1.jpg);
+
+}
+
+@media only screen and (max-width: 832px) {
+  
+
+}
